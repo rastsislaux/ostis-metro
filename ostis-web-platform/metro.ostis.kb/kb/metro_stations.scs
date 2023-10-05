@@ -11,7 +11,7 @@ metro_station_Malinauka
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.474202];;
         -> rrel_latitude: [53.848379];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -27,7 +27,7 @@ metro_station_Piatrouscyna
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.485843];;
         -> rrel_latitude: [53.864788];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -43,7 +43,7 @@ metro_station_Michalova
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.497036];;
         -> rrel_latitude: [53.876945];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -59,7 +59,7 @@ metro_station_Hrusauka
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.514768];;
         -> rrel_latitude: [53.886562];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -75,7 +75,7 @@ metro_station_Instytut_Kultury
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.540352];;
         -> rrel_latitude: [53.886053];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -91,7 +91,7 @@ metro_station_Plosca_Lienina
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.548114];;
         -> rrel_latitude: [53.893524];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -107,7 +107,7 @@ metro_station_Kastrycnickaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.56193];;
         -> rrel_latitude: [53.902263];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -123,7 +123,7 @@ metro_station_Plosca_Pieramohi
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.57527];;
         -> rrel_latitude: [53.90927];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -139,7 +139,7 @@ metro_station_Plosca_Jakuba_Kolasa
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.583759];;
         -> rrel_latitude: [53.915926];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -155,7 +155,7 @@ metro_station_Akademija_navuk
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.600198];;
         -> rrel_latitude: [53.922401];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -171,7 +171,7 @@ metro_station_Park_Caliuskincau
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.613143];;
         -> rrel_latitude: [53.924288];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -187,7 +187,7 @@ metro_station_Maskouskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.627462];;
         -> rrel_latitude: [53.928084];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -203,7 +203,7 @@ metro_station_Uschod
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.651097];;
         -> rrel_latitude: [53.934605];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -219,7 +219,7 @@ metro_station_Barysauski_trakt
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.666206];;
         -> rrel_latitude: [53.93885];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -235,7 +235,7 @@ metro_station_Urucca
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.687676];;
         -> rrel_latitude: [53.945565];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -251,7 +251,7 @@ metro_station_Kamiennaja_Horka
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.437415];;
         -> rrel_latitude: [53.906602];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -267,7 +267,7 @@ metro_station_Kuncauscyna
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.45423];;
         -> rrel_latitude: [53.906007];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -283,7 +283,7 @@ metro_station_Spartyunaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.480758];;
         -> rrel_latitude: [53.908315];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -299,7 +299,7 @@ metro_station_Puskinskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.497251];;
         -> rrel_latitude: [53.909429];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -315,7 +315,7 @@ metro_station_Maladzioznaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.523617];;
         -> rrel_latitude: [53.906527];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -331,7 +331,7 @@ metro_station_Frunzienskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.539319];;
         -> rrel_latitude: [53.905408];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -347,7 +347,7 @@ metro_station_Niamiha
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.554016];;
         -> rrel_latitude: [53.905732];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -363,7 +363,7 @@ metro_station_Kupalauskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.561714];;
         -> rrel_latitude: [53.900798];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -379,7 +379,7 @@ metro_station_Piersamajskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.570949];;
         -> rrel_latitude: [53.89379];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -395,7 +395,7 @@ metro_station_Pralietarskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.586841];;
         -> rrel_latitude: [53.890372];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -411,7 +411,7 @@ metro_station_Traktarny_zavod
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.614347];;
         -> rrel_latitude: [53.890123];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -427,7 +427,7 @@ metro_station_Partyzanskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.629627];;
         -> rrel_latitude: [53.875353];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -443,7 +443,7 @@ metro_station_Autazavodskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.648105];;
         -> rrel_latitude: [53.868918];;
-        <- WGS84
+        <- WGS84;;
     *);;
 
 
@@ -459,6 +459,6 @@ metro_station_Mahiliouskaja
     => nrel_geoposition: ... (*
         -> rrel_longitude: [27.673986];;
         -> rrel_latitude: [53.861798];;
-        <- WGS84
+        <- WGS84;;
     *);;
 

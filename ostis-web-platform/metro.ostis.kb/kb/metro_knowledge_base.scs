@@ -73,6 +73,11 @@ nrel_run
 => nrel_main_idtf: [перегон*] (* <- lang_ru;; *);
 => nrel_main_idtf: [run*] (* <- lang_en;; *);;
 
+nrel_geoposition
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [геопозиция*] (* <- lang_ru;; *);
+=> nrel_main_idtf: [geoposition*] (* <- lang_en;; *);;
+
 // Онтология
 
 metro_Minsk

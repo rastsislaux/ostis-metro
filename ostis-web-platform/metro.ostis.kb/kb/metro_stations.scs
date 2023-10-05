@@ -462,3 +462,62 @@ metro_station_Mahiliouskaja
         <- WGS84;;
     *);;
 
+metro_station_Kavalskaja_Slabada
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Zelenaluzhskaja;
+
+    => nrel_main_idtf: [Ковальская Слобода] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Kavalskaja Slabada] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.549564];;
+        -> rrel_latitude: [53.877678];;
+        <- WGS84;;
+    *);;
+
+metro_station_Vakzalnaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Zelenaluzhskaja;
+
+    => nrel_main_idtf: [Вокзальная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Vakzalnaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.547721];;
+        -> rrel_latitude: [53.889322];;
+        <- WGS84;;
+    *);;
+
+metro_station_Plosca_Francisca_Bahushevica
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Zelenaluzhskaja;
+
+    => nrel_main_idtf: [Площадь Франтишка Богушевича] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Plosca Francisca Bahushevica] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.537979];;
+        -> rrel_latitude: [53.896445];;
+        <- WGS84;;
+    *);;
+
+metro_station_Jubilejnaja_Plosca
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Zelenaluzhskaja;
+
+    => nrel_main_idtf: [Юбилейная площадь] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Jubilejnaja Plosca] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.540499];;
+        -> rrel_latitude: [53.904765];;
+        <- WGS84;;
+    *);;

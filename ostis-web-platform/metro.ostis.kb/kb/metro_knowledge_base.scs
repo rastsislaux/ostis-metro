@@ -23,6 +23,8 @@ metro_knowledge_base = [*
 
 *];;
 
+// Абсолютные понятия
+
 metro
 <- sc_node_class;
 => nrel_main_idtf: [метро] (* <- lang_ru;; *);
@@ -42,6 +44,13 @@ metro_run
 <- sc_node_class;
 => nrel_main_idtf: [перегон метро] (* <- lang_ru;; *);
 => nrel_main_idtf: [metro run] (* <- lang_en;; *);;
+
+WGS84
+<- sc_node_class;
+=> nrel_main_idtf: [WSG84] (* <- lang_ru;; *);
+=> nrel_main_idtf: [WSG84] (* <- lang_en;; *);;
+
+// Ролевые отношения
 
 rrel_station
 <- sc_node_role_relation;
@@ -96,3 +105,9 @@ metro_line_Autazavodskaja
 <- metro_line;
 => nrel_main_idtf: [Автозаводская линия] (* <- lang_ru;; *);
 => nrel_main_idtf: [Autazavodskaja line] (* <- lang_en;; *);;
+
+metro_line_Zelenaluzhskaja
+<- rrel_line: metro_Minsk;
+<- metro_line;
+=> nrel_main_idtf: [Зеленолужская линия] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Zelenaluzhskaja line] (* <- lang_en;; *);;

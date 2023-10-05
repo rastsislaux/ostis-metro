@@ -1,43 +1,13 @@
-version: '3.9'
-
 services:
-
-  db:
-    image: postgis/postgis:16-3.4-alpine
-    environment:
-      - POSTGRES_HOST_AUTH_METHOD=trust
-    volumes:
-      - umap_db:/opt/igisit/postgresql/data
-
-  integration:
-    image: ostis-metro-middleware:latest
-    expose:
-      - 80
-    ports:
-      - "80:80"
-
-  umap:
-    image: umap/umap:1.8.2
-    ports:
-      - "8001:8000"
-    environment:
-      - DATABASE_URL=postgis://postgres@db/postgres
-      - SITE_URL=https://localhost:8001/
-      - STATIC_ROOT=/srv/umap/static
-      - MEDIA_ROOT=/srv/umap/uploads
-    volumes:
-      - umap_userdata:/srv/umap/uploads
-      - ./umap.conf:/etc/umap/umap.conf
-    restart: always
-    depends_on:
-      - db
-      - integration
-
   web:
     image: ostis/sc-web:0.8.0-Fusion
+    build:
+      context: ./sc-web
     restart: unless-stopped
     ports:
       - "8000:8000"
+    networks:
+      - sc-machine
     command:
       - "--server-host=machine"
     depends_on:
@@ -46,9 +16,11 @@ services:
 
   machine:
     image: ostis/sc-machine:0.8.0-Fusion
+    build:
+      context: ./sc-machine
     restart: unless-stopped
     volumes:
-      - ./ostis-web-platform/:/kb
+      - ./:/kb
       - kb-binary:/kb.bin
     networks:
       - sc-machine
@@ -71,9 +43,6 @@ services:
 
 volumes:
   kb-binary: {}
-  umap_userdata:
-  umap_db:
 
 networks:
-  default:
-    name: ostis-metro-network
+  sc-machine: {}

@@ -1,0 +1,93 @@
+metro_knowledge_base
+=> nrel_main_idtf:
+    [База знаний геоинформационной системы "Минский Метрополитен"]
+    (* <- lang_ru;; *);
+=> nrel_main_idtf:
+    [Geographic Information System "Minsk Metro" Knowledge Base]
+    (* <- lang_en;; *);;
+
+metro_knowledge_base = [*
+
+    subject_domain_of_metro
+    => nrel_main_idtf: [Предметная область метро] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Subject domain of metro] (* <- lang_en;; *);
+
+    -> rrel_maximum_studied_object_class: metro;
+    -> rrel_not_maximum_studied_object_class:
+        metro_line;
+        metro_station;
+    -> rrel_explored_relation:
+        rrel_line;
+        rrel_station;
+        nrel_run;;
+
+*];;
+
+metro
+<- sc_node_class;
+=> nrel_main_idtf: [метро] (* <- lang_ru;; *);
+=> nrel_main_idtf: [metro] (* <- lang_en;; *);;
+
+metro_line
+<- sc_node_class;
+=> nrel_main_idtf: [линия метро] (* <- lang_ru;; *);
+=> nrel_main_idtf: [metro line] (* <- lang_en;; *);;
+
+metro_station
+<- sc_node_class;
+=> nrel_main_idtf: [станция метро] (* <- lang_ru;; *);
+=> nrel_main_idtf: [metro station] (* <- lang_en;; *);;
+
+metro_run
+<- sc_node_class;
+=> nrel_main_idtf: [перегон метро] (* <- lang_ru;; *);
+=> nrel_main_idtf: [metro run] (* <- lang_en;; *);;
+
+rrel_station
+<- sc_node_role_relation;
+=> nrel_main_idtf: [станция'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [station'] (* <- lang_en;; *);;
+
+rrel_run
+<- sc_node_role_relation;
+=> nrel_main_idtf: [перегон'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [run'] (* <- lang_en;; *);;
+
+rrel_line
+<- sc_node_role_relation;
+=> nrel_main_idtf: [линия'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [line'] (* <- lang_en;; *);;
+
+rrel_longitude
+<- sc_node_role_relation;
+=> nrel_main_idtf: [долгота'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [longitude'] (* <- lang_en;; *);;
+
+rrel_latitude
+<- sc_node_role_relation;
+=> nrel_main_idtf: [широта'] (* <- lang_ru;; *);
+=> nrel_main_idtf: [latitude'] (* <- lang_en;; *);;
+
+nrel_run
+<- sc_node_norole_relation;
+=> nrel_main_idtf: [перегон*] (* <- lang_ru;; *);
+=> nrel_main_idtf: [run*] (* <- lang_en;; *);;
+
+// Онтология
+
+metro_Minsk
+=> nrel_main_idtf: [Минский метрополитен] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Minsk metro] (* <- lang_en;; *);
+<- metro;;
+
+metro_line_Maskouskaja
+<- rrel_line: metro_Minsk;
+<- metro_line;
+=> nrel_main_idtf: [Московская линия] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Maskouskaya line] (* <- lang_en;; *);;
+
+metro_line_Autazavodskaja
+<- rrel_line: metro_Minsk;
+<- metro_line;
+=> nrel_main_idtf: [Автозаводская линия] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Autazavodskaja line] (* <- lang_en;; *);;

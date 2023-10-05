@@ -1,0 +1,464 @@
+
+metro_station_Malinauka
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Малиновка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Malinauka] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.474202];;
+        -> rrel_latitude: [53.848379];;
+        <- WGS84
+    *);;
+
+
+metro_station_Piatrouscyna
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Петровщина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Piatrouscyna] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.485843];;
+        -> rrel_latitude: [53.864788];;
+        <- WGS84
+    *);;
+
+
+metro_station_Michalova
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Михалово] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Michalova] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.497036];;
+        -> rrel_latitude: [53.876945];;
+        <- WGS84
+    *);;
+
+
+metro_station_Hrusauka
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Грушевка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Hrusauka] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.514768];;
+        -> rrel_latitude: [53.886562];;
+        <- WGS84
+    *);;
+
+
+metro_station_Instytut_Kultury
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Институт Культуры] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Instytut Kultury] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.540352];;
+        -> rrel_latitude: [53.886053];;
+        <- WGS84
+    *);;
+
+
+metro_station_Plosca_Lienina
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Площадь Ленина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Plosca Lienina] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.548114];;
+        -> rrel_latitude: [53.893524];;
+        <- WGS84
+    *);;
+
+
+metro_station_Kastrycnickaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Октябрьская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Kastrycnickaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.56193];;
+        -> rrel_latitude: [53.902263];;
+        <- WGS84
+    *);;
+
+
+metro_station_Plosca_Pieramohi
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Площадь Победы] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Plosca Pieramohi] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.57527];;
+        -> rrel_latitude: [53.90927];;
+        <- WGS84
+    *);;
+
+
+metro_station_Plosca_Jakuba_Kolasa
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Площадь Якуба Коласа] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Plosca Jakuba Kolasa] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.583759];;
+        -> rrel_latitude: [53.915926];;
+        <- WGS84
+    *);;
+
+
+metro_station_Akademija_navuk
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Академия Наук] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Akademija navuk] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.600198];;
+        -> rrel_latitude: [53.922401];;
+        <- WGS84
+    *);;
+
+
+metro_station_Park_Caliuskincau
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Парк Челюскинцев] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Park Caliuskincau] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.613143];;
+        -> rrel_latitude: [53.924288];;
+        <- WGS84
+    *);;
+
+
+metro_station_Maskouskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Московская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Maskouskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.627462];;
+        -> rrel_latitude: [53.928084];;
+        <- WGS84
+    *);;
+
+
+metro_station_Uschod
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Восток] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Uschod] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.651097];;
+        -> rrel_latitude: [53.934605];;
+        <- WGS84
+    *);;
+
+
+metro_station_Barysauski_trakt
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Борисовский тракт] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Barysauski trakt] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.666206];;
+        -> rrel_latitude: [53.93885];;
+        <- WGS84
+    *);;
+
+
+metro_station_Urucca
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Maskouskaja;
+
+    => nrel_main_idtf: [Уручье] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Urucca] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.687676];;
+        -> rrel_latitude: [53.945565];;
+        <- WGS84
+    *);;
+
+
+metro_station_Kamiennaja_Horka
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Каменная Горка] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Kamiennaja Horka] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.437415];;
+        -> rrel_latitude: [53.906602];;
+        <- WGS84
+    *);;
+
+
+metro_station_Kuncauscyna
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Кунцевщина] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Kuncauscyna] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.45423];;
+        -> rrel_latitude: [53.906007];;
+        <- WGS84
+    *);;
+
+
+metro_station_Spartyunaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Cпортивная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Spartyunaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.480758];;
+        -> rrel_latitude: [53.908315];;
+        <- WGS84
+    *);;
+
+
+metro_station_Puskinskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Пушкинская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Puskinskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.497251];;
+        -> rrel_latitude: [53.909429];;
+        <- WGS84
+    *);;
+
+
+metro_station_Maladzioznaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Молодежная] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Maladzioznaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.523617];;
+        -> rrel_latitude: [53.906527];;
+        <- WGS84
+    *);;
+
+
+metro_station_Frunzienskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Фрунзенская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Frunzienskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.539319];;
+        -> rrel_latitude: [53.905408];;
+        <- WGS84
+    *);;
+
+
+metro_station_Niamiha
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Немига] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Niamiha] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.554016];;
+        -> rrel_latitude: [53.905732];;
+        <- WGS84
+    *);;
+
+
+metro_station_Kupalauskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Купаловская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Kupalauskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.561714];;
+        -> rrel_latitude: [53.900798];;
+        <- WGS84
+    *);;
+
+
+metro_station_Piersamajskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Первомайская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Piersamajskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.570949];;
+        -> rrel_latitude: [53.89379];;
+        <- WGS84
+    *);;
+
+
+metro_station_Pralietarskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Пролетарская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Pralietarskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.586841];;
+        -> rrel_latitude: [53.890372];;
+        <- WGS84
+    *);;
+
+
+metro_station_Traktarny_zavod
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Тракторный завод] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Traktarny zavod] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.614347];;
+        -> rrel_latitude: [53.890123];;
+        <- WGS84
+    *);;
+
+
+metro_station_Partyzanskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Партизанская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Partyzanskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.629627];;
+        -> rrel_latitude: [53.875353];;
+        <- WGS84
+    *);;
+
+
+metro_station_Autazavodskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Автозаводская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Autazavodskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.648105];;
+        -> rrel_latitude: [53.868918];;
+        <- WGS84
+    *);;
+
+
+metro_station_Mahiliouskaja
+    <- metro_station;
+    <- rrel_station:
+        metro_Minsk;
+        metro_line_Autazavodskaja;
+
+    => nrel_main_idtf: [Могилевская] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Mahiliouskaja] (* <- lang_en;; *);
+
+    => nrel_geoposition: ... (*
+        -> rrel_longitude: [27.673986];;
+        -> rrel_latitude: [53.861798];;
+        <- WGS84
+    *);;
+

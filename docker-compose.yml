@@ -14,7 +14,7 @@ services:
     expose:
       - 80
     ports:
-      - "80:80"
+      - "8002:8002"
 
   umap:
     image: umap/umap:1.8.2
@@ -31,7 +31,6 @@ services:
     restart: always
     depends_on:
       - db
-      - integration
 
   web:
     image: ostis/sc-web:0.8.0-Fusion
@@ -50,8 +49,6 @@ services:
     volumes:
       - ./ostis-web-platform/:/kb
       - kb-binary:/kb.bin
-    networks:
-      - sc-machine
     ports:
       - "8090:8090"
     healthcheck:

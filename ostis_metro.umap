@@ -1,0 +1,108 @@
+{
+  "type": "umap",
+  "uri": "http://localhost:8001/en/map/ostis-metro_1#13/53.8890/27.5410",
+  "properties": {
+    "easing": false,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "permanentCreditBackground": true,
+    "slideshow": {},
+    "captionMenus": true,
+    "captionBar": false,
+    "limitBounds": {},
+    "overlay": {},
+    "tilelayer": {},
+    "licence": "",
+    "description": "",
+    "name": "OSTIS Metro",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 12
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      27.57465362548828,
+      53.90585510507093
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "editMode": "advanced",
+        "name": "Red Stations",
+        "remoteData": {
+          "url": "http://localhost:8002/stations/red",
+          "format": "geojson"
+        },
+        "color": "Red",
+        "iconClass": "Drop",
+        "stroke": true,
+        "showLabel": true,
+        "popupTemplate": "Table",
+        "popupShape": "Large",
+        "type": "Default",
+        "cluster": {},
+        "heat": {},
+        "id": 1,
+        "permissions": {
+          "edit_status": 0
+        },
+        "fromZoom": 12
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "editMode": "advanced",
+        "remoteData": {
+          "url": "http://localhost:8002/stations/blue",
+          "format": "geojson"
+        },
+        "name": "Blue Stations",
+        "color": "Blue",
+        "iconClass": "Drop",
+        "showLabel": true,
+        "id": 2,
+        "permissions": {
+          "edit_status": 0
+        },
+        "type": "Default",
+        "cluster": {},
+        "fromZoom": 12
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "editMode": "advanced",
+        "remoteData": {
+          "url": "http://localhost:8002/stations/green",
+          "format": "geojson"
+        },
+        "name": "Green Stations",
+        "fromZoom": 12,
+        "color": "DarkGreen",
+        "iconClass": "Drop",
+        "popupContentTemplate": "",
+        "showLabel": true
+      }
+    }
+  ]
+}

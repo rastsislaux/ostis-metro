@@ -1,5 +1,6 @@
 package net.ostis.jesc.context;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import net.ostis.jesc.api.ScApi;
 import net.ostis.jesc.client.model.element.ScEventType;
 import net.ostis.jesc.client.model.element.ScReference;
@@ -10,7 +11,6 @@ import net.ostis.jesc.context.iterator.Iterable3;
 
 import java.util.Objects;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * ScContextCommon is basic implementation of ScContext included in JESC core package.
@@ -55,6 +55,11 @@ public class ScContextCommon implements ScContext {
             var str = String.join(", ", response.getErrors());
             throw new ScContextRuntimeException(str);
         }
+    }
+
+    @Override
+    public ScApi getApi() {
+        return scApi;
     }
 
     /**
@@ -194,6 +199,39 @@ public class ScContextCommon implements ScContext {
                 .getPayload()
                 .get(0)
                 .getEventId();
+    }
+
+    @Override
+    public JsonNode getLinkContent(Long linkAddr) {
+        return scApi.content().get(linkAddr).execute()
+                .getPayload().get(0).get("value");
+    }
+
+    @Override
+    public String getSystemIdentifier(Long addr) {
+        var nrelSystemIdtf = findBySystemIdentifier("nrel_system_identifier").get();
+
+        var linkAddr = scApi.searchByTemplate()
+                .references(
+                        ScReference.addr(addr),
+                        ScReference.type(ScType.EDGE_D_COMMON_VAR, "edge"),
+                        ScReference.type(ScType.LINK)
+                )
+                .references(
+                        ScReference.addr(nrelSystemIdtf),
+                        ScReference.type(ScType.EDGE_ACCESS_VAR_POS_PERM),
+                        ScReference.alias("edge")
+                )
+                .execute()
+                .getPayload()
+                .getAddrs()
+                .get(0)
+                .get(2);
+
+        return scApi.content().get(linkAddr)
+                .execute()
+                .getPayload().get(0).get("value")
+                .asText();
     }
 
     @Override

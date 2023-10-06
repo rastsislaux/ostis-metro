@@ -1,5 +1,7 @@
 package net.ostis.jesc.context;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import net.ostis.jesc.api.ScApi;
 import net.ostis.jesc.client.model.element.ScEventType;
 import net.ostis.jesc.client.model.element.ScReference;
 import net.ostis.jesc.client.model.type.ScType;
@@ -8,6 +10,8 @@ import net.ostis.jesc.context.iterator.Iterable3;
 import java.util.Optional;
 
 public interface ScContext {
+
+    ScApi getApi();
 
     /**
      * Check if SC address is valid
@@ -61,6 +65,10 @@ public interface ScContext {
     Long createArc(ScType type, Long scAddrOut, Long scAddrIn);
 
     Long createEvent(ScEventType eventType, Long addr);
+
+    JsonNode getLinkContent(Long linkAddr);
+
+    String getSystemIdentifier(Long addr);
 
     String getMainIdentifier(Long addr, String lang);
 
